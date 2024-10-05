@@ -1,0 +1,9 @@
+Fonts
+sharp sans // corpo
+sharp grotesk // titulos e destaques
+
+hero ....... 64 to 55 to 35 //sharp grotesk
+Titulos..... 56 to 44 to 36 //sharp grotesk
+SubTiltulos. 22 //sharp grotesk
+Content..... 18 to 16 to 16 //sharp sans
+Upercase.... 18 //sharp grotesk
