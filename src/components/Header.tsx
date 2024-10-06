@@ -2,15 +2,18 @@ export default function HeaderSection() {
   return (
     <div className="section-home-header">
       <div className="header-wrapper">
-        <a href="">WOOWLanding</a>
+        <a className="logo" href="">
+          WOOW Pages
+        </a>
         <nav>
           <a href="">Preços</a>
           <a href="">Inspirações</a>
           <a href="">Automação</a>
         </nav>
-        <button>
-          <a href="">Orçamento</a>
-        </button>
+
+        <a className="button" href="">
+          Orçamento
+        </a>
       </div>
     </div>
   );
