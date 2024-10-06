@@ -6,10 +6,9 @@ export default function MainSection() {
           <h1>Faça sua marca crescer</h1>
           <h1>com conteúdo consistente</h1>
           <p>
-            <strong>WOOW Pages</strong> é uma plataforma de design inteligente,
-            como uma combinação de Canva e ChatGPT , que cria conteúdo de mídia
-            social pronto para publicação, personalizável e pré-marcado para o
-            seu negócio
+            Tenha uma página exclusiva, rápida e com copy otimizada para
+            impulsionar seu negócio. Converta visitantes em clientes, com design
+            sob medida para suas necessidades.
           </p>
           <a className="button" href="">
             Fale com o desenvolvedor
