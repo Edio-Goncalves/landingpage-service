@@ -14,13 +14,6 @@ export default function MainSection() {
             Fale com o desenvolvedor
           </a>
         </main>
-
-        <div>
-          <h3>
-            Perfeito para profissional liberal, produtos e agências de marketing
-            digital.
-          </h3>
-        </div>
       </div>
     </div>
   );

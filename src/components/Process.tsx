@@ -1,16 +1,20 @@
 export default function Process() {
   return (
-    <div>
-      <section>
+    <div className="section-process">
+      <section className="process-wrapper">
+        <h3 className="title-pointer">
+          Como funciona o processo de desenvolvimento?
+        </h3>
+        <h2>
+          Passo a passo do <br />
+          planejamento à entrega
+        </h2>
         <div className="slide-wrapper">
-          <p>Como funciona o processo de desenvolvimento?</p>
           <div className="select-img">
-            <a className="checked" href="">
-              Breafing
-            </a>
-            <a href="">Prototipação</a>
-            <a href="">Desenvolvimento</a>
-            <a href="">Entrega</a>
+            <button className="checked">Breafing</button>
+            <button>Prototipação</button>
+            <button>Desenvolvimento</button>
+            <button>Entrega</button>
           </div>
           <div className="imgtt">
             <img src="" alt="" />

@@ -1,4 +1,5 @@
 @use "fonts";
+/* MAIN */
 .section-home-hero {
   color: #1e0825;
   width: 100%;
@@ -51,12 +52,12 @@
   }
 }
 
-/* PRICES */
-.section-prices {
+/* BENEFITS */
+.section-benefits {
   font-family: "SharpSans", sans-serif;
   background-color: #ffffff;
   padding: 50px 20px;
-  .prices-wrapper {
+  .wrapper-benefits {
     width: 100%;
     max-width: 1280px;
     padding: 80px 140px;
@@ -75,82 +76,96 @@
       text-align: center;
       font-family: "SharpGroteskMedium", sans-serif;
       font-size: 62px;
-      margin-bottom: 40px;
     }
-  }
-  .prices-boxes {
-    display: flex;
-    gap: 5px;
-    .box-price {
-      background-color: #ffffff;
-      padding: 20px;
+    p {
       width: 100%;
-      width: 310px;
-      height: 430px;
-      border: 2px solid #0099ff;
-      border-radius: 16px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      position: relative;
-      gap: 10px;
-      &.checked {
-        background-color: #1e0825;
-        color: #ffffff;
-        transform: scale(1.1);
-        border: #1e0825;
-        z-index: 1;
-      }
-      .plan {
-        font-size: 48px;
-      }
-      .pr-wr {
+      max-width: 940px;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      line-height: 1.7;
+    }
+    div {
+      ul {
         display: flex;
         flex-direction: column;
-        margin-bottom: 10px;
-        span {
-          line-height: 1;
-          font-family: "SharpSansBold", sans-serif;
-          font-weight: bold;
-          font-size: 32px;
-        }
-        > :nth-child(3) {
-          font-size: 25px;
-        }
-      }
-      ul {
-        text-align: left;
-        margin-bottom: 10px;
+        gap: 7px;
+        width: 80%;
         li {
+          list-style: none;
+          text-align: left;
           display: flex;
           align-items: center;
-          list-style: none;
-          font-size: 16px;
-          line-height: 1.6;
-          .ico-price {
+          line-height: 1.5;
+          .ico {
             flex-shrink: 0;
-            margin-right: 8px;
+            margin-right: 10px;
             color: #0099ff;
             font-size: 18px;
-            &.ico-red {
-              font-size: 24px;
-              color: red;
-              margin-left: -5px;
-            }
           }
         }
       }
-      button {
-        cursor: pointer;
-        position: absolute;
-        bottom: 40px;
-        font-size: 18px;
-        padding: 20px;
-        width: 70%;
-        border-radius: 14px;
-        background-color: #0099ff;
-        color: #ffffff;
-        border: 1px solid #1e08251c;
+    }
+  }
+}
+
+/* PROCESS */
+.section-process {
+  font-family: "SharpSans", sans-serif;
+  background-color: #1e0825;
+  padding: 50px 20px;
+  .process-wrapper {
+    background-color: #f6f8ff;
+    width: 100%;
+    max-width: 1280px;
+    padding: 80px 140px;
+    margin: auto;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    h3 {
+      color: #ff6e01;
+    }
+    h2 {
+      text-align: center;
+      font-family: "SharpGroteskMedium", sans-serif;
+      font-size: 62px;
+      margin-bottom: 20px;
+    }
+    .slide-wrapper {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .select-img {
+        display: flex;
+        padding: 5px;
+        gap: 10px;
+        background-color: #ffffff;
+        border-radius: 30px;
+        button {
+          cursor: pointer;
+          padding: 10px 14px;
+          font-size: 16px;
+          border-radius: 20px;
+          border: none;
+          font-weight: bold;
+          border: 1px solid #1e08251c;
+          background-color: #ffffff;
+          &.checked {
+            background-color: #1e0825;
+            color: #f6f8ff;
+          }
+        }
+      }
+      .imgtt {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 550px;
       }
     }
   }
@@ -161,6 +176,7 @@
   font-family: "SharpSans", sans-serif;
   padding: 50px 20px;
   background-color: #f6f8ff;
+  background-image: linear-gradient(#f6f8ff, #f6f8ff 87%, #fff);
   .automation-wrapper {
     width: 100%;
     max-width: 1280px;
@@ -268,6 +284,111 @@
             border-radius: 8px;
           }
         }
+      }
+    }
+  }
+}
+
+/* PRICES */
+.section-prices {
+  font-family: "SharpSans", sans-serif;
+  background-color: #ffffff;
+  padding: 50px 20px;
+  .prices-wrapper {
+    width: 100%;
+    max-width: 1280px;
+    padding: 80px 140px;
+    margin: auto;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    h3 {
+      color: #ff6e01;
+    }
+    h2 {
+      text-align: center;
+      font-family: "SharpGroteskMedium", sans-serif;
+      font-size: 62px;
+      margin-bottom: 40px;
+    }
+  }
+  .prices-boxes {
+    display: flex;
+    gap: 5px;
+    .box-price {
+      background-color: #ffffff;
+      padding: 20px;
+      width: 100%;
+      width: 310px;
+      height: 430px;
+      border: 2px solid #0099ff;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      gap: 10px;
+      &.checked {
+        background-color: #1e0825;
+        color: #ffffff;
+        transform: scale(1.1);
+        border: #1e0825;
+        z-index: 1;
+      }
+      .plan {
+        font-size: 48px;
+      }
+      .pr-wr {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        span {
+          line-height: 1;
+          font-family: "SharpSansBold", sans-serif;
+          font-weight: bold;
+          font-size: 32px;
+        }
+        > :nth-child(3) {
+          font-size: 25px;
+        }
+      }
+      ul {
+        text-align: left;
+        margin-bottom: 10px;
+        li {
+          display: flex;
+          align-items: center;
+          list-style: none;
+          font-size: 16px;
+          line-height: 1.6;
+          .ico-price {
+            flex-shrink: 0;
+            margin-right: 8px;
+            color: #0099ff;
+            font-size: 18px;
+            &.ico-red {
+              font-size: 24px;
+              color: red;
+              margin-left: -5px;
+            }
+          }
+        }
+      }
+      button {
+        cursor: pointer;
+        position: absolute;
+        bottom: 40px;
+        font-size: 18px;
+        padding: 20px;
+        width: 70%;
+        border-radius: 14px;
+        background-color: #0099ff;
+        color: #ffffff;
+        border: 1px solid #1e08251c;
       }
     }
   }

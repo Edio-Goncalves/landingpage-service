@@ -40,3 +40,4 @@ Briefing: Entendimento das suas necessidades.
 Prototipação: Criação do layout inicial.
 Desenvolvimento: Implementação com foco em performance.
 Entrega e Revisão: Ajustes finais para garantir a perfeição.
+Passo a passo Do planejamento à entrega
