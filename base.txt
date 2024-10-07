@@ -1,3 +1,9 @@
+#ffffff;
+#f7f7f7;
+#1e0825;
+#0099ff;
+#ff6e01;
+
 Fonts
 sharp sans // corpo
 sharp grotesk // titulos e destaques
@@ -9,28 +15,23 @@ Content..... 18 to 16 to 16 //sharp sans
 Upercase.... 18 //sharp grotesk
 
 #########
-1. Header: Conteúdo de Navegação
-Preços
-Inspirações
-Automação
-Orçamento
 
-2. Main Conteúdo: Hero
-Título Principal: "Conquiste mais clientes com uma landing page eficiente e exclusiva"
-Subtítulo: "Seu negócio precisa de uma página que converta. Criamos páginas rápidas, otimizadas e com design único, com copy totalmente ajustadas às suas necessidades."
-Call to Action: "Solicite seu projeto personalizado"
-
-3. Seção: Benefícios do Serviço
-Título: "Por que escolher a WooW Pages"
-Subtítulo: Vamos ajudar você a apresentar o valor do seu trabalho, mostrando por que o cliente deve escolher seu serviço.
+3. Seção: Benefícios do Serviço (OK)
+Título*2: "Por que escolher a WooW Pages?"
+Título: Você fará sua marca crescer com conteúdo consistente
+Criaremos uma página desenvolvida sob medida, otimizada para performance e resultados. 
+Temos redatores especializados em copy de alta conversão
+Para profissionais liberais, temos acessoria juridica para estar de acordo com conselho de ética de cada profissão.
+Subtítulo: Vamos ajudar você a apresentar o valor do seu trabalho, mostrando por que o cliente deve escolher seu serviço ou produto.
 
 Pontos de destaque:
 Performance: Páginas rápidas e otimizadas para garantir conversões mais altas.
 Design Exclusivo: Cada página reflete a identidade única do seu negócio.
 SEO Otimizado: Estrutura para um bom ranqueamento nos motores de busca.
 Totalmente Responsiva: Páginas perfeitas para qualquer dispositivo.
+Atendimento Personalizado: Consultas e suporte contínuo, garantindo que suas necessidades sejam atendidas em cada etapa do processo.
 
-4. Seção: Como Funciona o Processo
+4. Seção: Como Funciona o Processo (OK)
 Detalhe o processo de desenvolvimento, mostrando transparência e facilitando o entendimento para o cliente.
 
 Título: "Como funciona o processo de desenvolvimento?"
@@ -39,37 +40,3 @@ Briefing: Entendimento das suas necessidades.
 Prototipação: Criação do layout inicial.
 Desenvolvimento: Implementação com foco em performance.
 Entrega e Revisão: Ajustes finais para garantir a perfeição.
-
-5. Seção: Automação de Chatbot
-Adicione um serviço adicional para destacar a automação de chatbot como um diferencial.
-
-Título: "Quer um diferncial? Automação de Chatbot para Conversões Rápidas e Atendimento Eficiente"
-
-Subtítulo: "Adicione um chatbot inteligente à sua landing page para atender seus clientes de forma automatizada e eficiente, 24/7."
-
-Benefícios:
-
-Atendimento instantâneo.
-Aumente as conversões capturando leads em tempo real.
-Experiência personalizada para cada visitante.
-Integração simples e prática.
-Call to Action: "Inclua um chatbot na sua landing page e maximize seus resultados."
-
-6. Seção: Depoimentos de Clientes Satisfeitos
-Título: "O que meus clientes dizem"
-
-Depoimentos:
-"Nossa taxa de conversão aumentou em 35% graças à landing page desenvolvida." — João, CEO da Empresa XYZ
-"Design impecável e resultados rápidos. A página foi fundamental para nosso crescimento." — Maria, Fundadora da Startup ABC
-
-7. Seção: Call to Action Final
-Título: "Pronto para transformar seu negócio?"
-Subtítulo: "Vamos criar uma landing page que trará resultados reais."
-Call to Action: "Solicite seu projeto agora"
-
-
-8. Footer: Informações Finais
-Contato
-Termos de Serviço
-Política de Privacidade
-Redes Sociais

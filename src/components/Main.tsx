@@ -14,18 +14,7 @@ export default function MainSection() {
             Fale com o desenvolvedor
           </a>
         </main>
-        <div className="slide-wrapper">
-          <div className="select-img">
-            <a className="checked" href="">
-              Breafing
-            </a>
-            <a href="">Design</a>
-            <a href="">Desenvolvimento</a>
-          </div>
-          <div className="imgtt">
-            <img src="" alt="" />
-          </div>
-        </div>
+
         <div>
           <h3>
             Perfeito para profissional liberal, produtos e agências de marketing
