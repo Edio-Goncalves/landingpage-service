@@ -3,12 +3,12 @@ export default function HeaderSection() {
     <div className="section-home-header">
       <div className="header-wrapper">
         <a className="logo" href="">
-          WOOW Pages
+          WOW Pages
         </a>
         <nav>
-          <a href="">Preços</a>
+          <a href="#preco">Preços</a>
           <a href="">Inspirações</a>
-          <a href="">Automação</a>
+          <a href="#chatbot">Automação</a>
         </nav>
 
         <a className="button" href="">

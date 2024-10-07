@@ -2,7 +2,7 @@ import { FaCheck } from "react-icons/fa";
 import { IoCloseSharp } from "react-icons/io5";
 export default function Prices() {
   return (
-    <div className="section-prices">
+    <div id="preco" className="section-prices">
       <section className="prices-wrapper">
         <h3 className="title-pointer">
           Escolha o que melhor atende sua demanda

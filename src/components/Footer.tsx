@@ -3,22 +3,24 @@ export default function Footer() {
     <div className="section-footer">
       <footer className="footer-wrapper">
         <div>
-          <a href="">LOGO</a>
+          <a className="logo" href="/">
+            WoW Pages
+          </a>
           <div>
-            <h3>Contato</h3>
+            <a href="">Contato</a>
           </div>
           <div>
-            <h3>Support</h3>
+            <a href="">Support</a>
           </div>
         </div>
 
         <div className="end-page">
-          <p>© 2024 Woow Pages™. Todos direitos reservados.</p>
+          <p>© 2024 WoW Pages™. Todos direitos reservados.</p>
           <a href="">Termos de uso</a>
           <a href="">Politicas de privacidade</a>
           <div className="developer">
             <p>Desenvolvido por</p>
-            <a href="">Edio gonçalves</a>
+            <a href="">Edio Gonçalves</a>
           </div>
         </div>
       </footer>

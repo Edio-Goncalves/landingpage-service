@@ -2,7 +2,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 export default function Automation() {
   return (
-    <div className="section-automation">
+    <div id="chatbot" className="section-automation">
       <section className="automation-wrapper">
         <div className="automation-content">
           <p className="title-pointer">Quer um diferencial?</p>
@@ -35,13 +35,16 @@ export default function Automation() {
           <h2>Veja alguns modelos</h2>
           <div className="bot-models">
             <div>
-              <button className="cheked">Lead</button>
+              <button className="checked">Lead</button>
               <button>Produto</button>
               <button>Advogado</button>
               <button>Menu</button>
+              <div className="img-bg-click">
+                <img src="./img/click-btn.svg" alt="" />
+              </div>
             </div>
             <div className="bot-chat">
-              <div>Aqui va ientrar typebot</div>
+              <div>{/* Aqui va ientrar typebot */}</div>
             </div>
           </div>
         </div>

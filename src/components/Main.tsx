@@ -1,3 +1,5 @@
+import Testimonials from "./Testimonials";
+
 export default function MainSection() {
   return (
     <div className="section-home-hero">
@@ -14,6 +16,7 @@ export default function MainSection() {
             Fale com o desenvolvedor
           </a>
         </main>
+        <Testimonials />
       </div>
     </div>
   );
